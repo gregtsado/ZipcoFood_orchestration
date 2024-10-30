@@ -2,8 +2,13 @@
 ### Project Overview
 Business Problem: Zipco Foods generates large volumes of daily sales data stored across multiple CSV files without a centralized data storage solution. This fragmentation limits real-time access and analysis, impacting decision-making and operational efficiency. The project aims to unify, cleanse, and structure this data to enable efficient data access and analytics.
 Objective: Develop a scalable ETL pipeline that consolidates sales and inventory data, supports real-time insights, and ensures data accuracy, integrity, and accessibility.
-<img src="architecture.png" alt="Image Description" width="50%"/>
+
 ### Solution Approach
+
+- Designing Appropriate Architecture
+
+<img src="architecture.png" alt="Image Description" width="50%"/>
+
 - Data Ingestion: Automate data collection from multiple CSV sources, standardize formats, and load them into a unified storage system.
 - Data Transformation: Data Modeling to remove redundacy and easy retrieval of insights, Data Cleaning, and format the raw data for consistency, adding calculated fields for enriched analytics.
 <img src="zipco-Page-2.drawio.png" alt="Image Description" width="50%"/>
@@ -15,7 +20,8 @@ Objective: Develop a scalable ETL pipeline that consolidates sales and inventory
 - Ingestion: Apache Airflow for scheduling and managing ETL jobs
 - Transformation: Python for data processing and Pandas for CSV handling
 - Storage: Azure Blob Storaeg for centralized data storage
-- Analysis & Visualization: Power BI / Tableau for creating sales dashboards
+- Analysis & Visualization: Power BI for creating sales dashboards
+
 **ETL Pipeline**:
 - Step 1: Extract data from CSV files using Python scripts and store raw data in staging tables.
 - Step 2: Apply transformations for data cleaning, normalization, and aggregation.
