@@ -7,6 +7,7 @@ Objective: Develop a scalable ETL pipeline that consolidates sales and inventory
 - Data Ingestion: Automate data collection from multiple CSV sources, standardize formats, and load them into a unified storage system.
 - Data Transformation: Data Modeling to remove redundacy and easy retrieval of insights, Data Cleaning, and format the raw data for consistency, adding calculated fields for enriched analytics.
 <img src="zipco-Page-2.drawio.png" alt="Image Description" width="50%"/>
+
 - Data Storage: Store the processed data in a relational database or data warehouse for efficient querying, analysis, and integration with BI tools.
 - Data Accessibility: Design API endpoints and dashboards for real-time access to sales and inventory insights.
 ### Technical Implementation
