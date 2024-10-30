@@ -1,7 +1,7 @@
 import pandas as pd
 
 def run_transformation():
-    data = pd.read_csv(r'\data\transaction.csv')
+    data = pd.read_csv('zipco_transaction.csv')
     
     #handling missing values
     numeric_columns = data.select_dtypes(include=['float64', 'int64']).columns
@@ -45,4 +45,5 @@ def run_transformation():
     transaction.to_csv('transaction.csv', index=False)
     
     print('Data cleaning and transformation completed')
+    
     
